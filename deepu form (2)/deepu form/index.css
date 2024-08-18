@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input.is-valid {
+    border-color: #28a745 !important;
+}
+
+input.is-invalid {
+    border-color: #dc3545 !important;
+}
+
+/* Additional styles for the form fields */
+input.form-control {
+    border-radius: 5px;
+}
+
+/* Adjust the button styles */
+button {
+    border-radius: 5px;
+    padding: 10px;
+}
+
